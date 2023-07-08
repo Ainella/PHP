@@ -1,0 +1,6 @@
+CREATE TABLE BOOKS(id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+book_name VARCHAR(100) NOT NULL,
+author_name VARCHAR(50),
+publisher VARCHAR(30) NOT NULL,
+publish_year int NOT NULL,
+comment VARCHAR(255));
